@@ -10,35 +10,24 @@ Insights and recommendations are provided on the following key areas:
 - **Category 3: Targeted Strategies for Age Groups** 
 - **Category 4: Employment and Financial Stability Trends** 
 
-The Python was used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-
+The Python was used to for this segmentation analysis can be found here [link](https://github.com/AnalystShoeb/customer_segmentation_analysis/blob/main/Customer%20Segmentation%20Analysis.ipynb).
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link](https://public.tableau.com/app/profile/shoebur.rahman/viz/CutomerSegmetationDashboard/CutomerSegmentationDashboard?publish=yes).
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
-
-[Entity Relationship Diagram here]
-
-
+The companies main database structure as seen below consists of three tables: Demographics Table, Income and Debt Table, and Cluster Assignments. A description of each table is as follows:
+- **Demographics Table:** Contains details about customer age, education, and employment.
+- **Income and Debt Table:** Includes income, card debt, and other debt levels for each customer.
+- **Cluster Assignments:** Python library K-Mean was used to develop the Customer Segmentation Table.
 
 # Executive Summary
-
 ### Overview of Findings
+Key Insights:
+1.	Segment 4 contributes the highest income with a low debt-to-income ratio, making them ideal for premium offerings.
+2.	Segment 3 has the highest debt levels, indicating a need for targeted debt management solutions.
+3.	Older age groups (41-60) consistently show higher incomes, suggesting opportunities for investment-focused products.
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
-
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
-
+![Customer Segmentation Dashboard](Customer Segmentation Dashboard.png)
 
 # Insights Deep Dive
 ### Category 1:
