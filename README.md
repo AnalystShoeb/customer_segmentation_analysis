@@ -27,7 +27,7 @@ Key Insights:
 2.	Segment 3 has the highest debt levels, indicating a need for targeted debt management solutions.
 3.	Older age groups (41-60) consistently show higher incomes, suggesting opportunities for investment-focused products.
 
-![Customer Segmentation Dashboard](images/"Customer Segmentation Dashboard.png")
+![Customer Segmentation Dashboard](Customer%20Segmentation%20Dashboard.png)
 
 # Insights Deep Dive
 ### Category 1:
