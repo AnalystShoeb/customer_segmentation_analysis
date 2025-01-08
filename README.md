@@ -1,46 +1,121 @@
-# Customer Segmentation Analysis
+# Project Background
+This analysis focuses on **Summit Trust Bank** aiming to improve their customer targeting through segmentation.
+The bank offer products like credit cards, loans, and investment portfolios. Active for over 15 years, the business primarily caters to individuals aged 20-60 with varying income and debt levels.
+Key business goals include improving debt management offerings, upselling investment products, and ensuring sustainable customer growth.
 
-This repository contains the code and analysis for a customer segmentation project using data related to customer demographics and financial attributes. The goal of the project was to identify distinct customer segments based on various attributes, which could be valuable for targeted marketing strategies.
+Insights and recommendations are provided on the following key areas:
 
-## Project Overview
+- **Category 1: Income Distribution and Segmentation** 
+- **Category 2: Debt Management Across Segments** 
+- **Category 3: Targeted Strategies for Age Groups** 
+- **Category 4: Employment and Financial Stability Trends** 
 
-The project involved:
-- **Data Cleaning and Preprocessing**: Standardizing and preparing the dataset for analysis.
-- **Dimensionality Reduction**: Using Principal Component Analysis (PCA) to reduce the dimensionality of the data while retaining key patterns.
-- **Clustering**: Identifying customer segments using unsupervised learning techniques (e.g., k-means clustering).
-- **Segmentation Analysis**: Grouping customers into four distinct clusters based on demographic and financial factors.
+The Python was used to inspect and clean the data for this analysis can be found here [link].
 
-## Data Used
+Targed SQL queries regarding various business questions can be found here [link].
 
-The dataset includes the following key columns:
-- `Age`
-- `Education`
-- `Years Employed`
-- `Income`
-- `Card Debt`
-- `Other Debt`
-- `Debt-to-Income Ratio`
-- `Behavioral Data`
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
-## Key Findings
 
-After analyzing the data, four distinct customer clusters were identified:
-1. **Cluster 1**: Younger customers with moderate income and lower debt-to-income ratios.
-2. **Cluster 2**: Highly educated, higher-income customers with significant debts.
-3. **Cluster 3**: Middle-aged customers with stable employment and low debt.
-4. **Cluster 4**: Older customers with substantial debt but high income levels.
 
-Each segment's key attributes, such as average age, income, education level, and debt profile, were analyzed in detail.
+# Data Structure & Initial Checks
 
-## Technologies Used
+The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+- **Table 2:**
+- **Table 3:**
+- **Table 4:**
+- **Table 5:**
 
-- **Python**: For data analysis, preprocessing, and clustering (`Pandas`, `Scikit-learn`, etc.).
-- **Jupyter Notebook**: For running the code and presenting the analysis.
+[Entity Relationship Diagram here]
 
-## Future Improvements
-Some additional refinements and adjustments may be made to the analysis, such as:
-- Optimizing the number of clusters.
-- Incorporating new features into the segmentation process.
 
-## Conclusion
-This project provides a comprehensive view of how customer data can be used to create meaningful segments, which can aid businesses in crafting more effective marketing strategies.
+
+# Executive Summary
+
+### Overview of Findings
+
+Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+
+[Visualization, including a graph of overall trends or snapshot of a dashboard]
+
+
+
+# Insights Deep Dive
+### Category 1:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 1]
+
+
+### Category 2:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 2]
+
+
+### Category 3:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 3]
+
+
+### Category 4:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 4]
+
+
+
+# Recommendations:
+
+Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+
+
+# Assumptions and Caveats:
+
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+
+* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+  
+* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+  
+* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
