@@ -11,7 +11,7 @@ Insights and recommendations are provided on the following key areas:
 - **Category 4: Employment and Financial Stability Trends** 
 
 The Python was used to for this segmentation analysis can be found here [link](https://github.com/AnalystShoeb/customer_segmentation_analysis/blob/main/Customer%20Segmentation%20Analysis.ipynb).
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link](https://public.tableau.com/app/profile/shoebur.rahman/viz/CutomerSegmetationDashboard/CutomerSegmentationDashboard?publish=yes).
+An interactive Tableau dashboard used to report can be found here [link](https://public.tableau.com/app/profile/shoebur.rahman/viz/CutomerSegmetationDashboard/CutomerSegmentationDashboard?publish=yes).
 
 ## Data Structure & Initial Checks
 
@@ -32,7 +32,7 @@ Key Insights:
 ## Insights Deep Dive
 
 ### Income Distribution and Segmentation:
-* **Main insight 1.** Segment 4 accounts for 36% of total income, with an average income of $71K.
+* **Main insight 1.** Segment 4 accounts for 36% of total income, with an average income of $87K.
 * **Main insight 2.** Segment 3 shows a debt-to-income ratio of 25%, significantly higher than the overall average.
 * **Main insight 3.** Middle-income customers in Segment 2 are at risk of churn, requiring retention strategies.
 
